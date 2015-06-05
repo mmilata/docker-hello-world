@@ -1,3 +1,2 @@
-FROM fedora:latest
-RUN sleep 300
+FROM centos:latest
 RUN uname -a && env
