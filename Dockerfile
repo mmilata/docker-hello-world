@@ -1,4 +1,4 @@
 FROM fedora:latest
 RUN uname -a && env
-RUN sleep 30m
+RUN sleep 66m
 RUN cat /etc/hosts
