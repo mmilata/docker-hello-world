@@ -1,2 +1,3 @@
 FROM fedora:latest
-RUN yum -y install tuned-profiles-openshift-node
+RUN hostname
+LABEL "Name"="foo" "Version"="1" "release"="666"
