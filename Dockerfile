@@ -1,3 +1,3 @@
-FROM fedora:latest
-RUN uname -a
-LABEL "Name"="foo" "Version"="1" "Release"="666"
+FROM centos:latest
+CMD sleep 60m
+LABEL "Name"="foobar"
